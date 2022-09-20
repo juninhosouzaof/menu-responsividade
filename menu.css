@@ -1,0 +1,78 @@
+.logo {
+    height: 40px;
+    width: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: silver;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+a {
+    background-color: black;
+    color: gold;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+a:hover {
+    background: gold;
+    color: black;
+    border: 1px solid white;
+
+}
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 700px) {
+    
+    body {
+        background-color: black;   
+    }
+
+    .logo {
+        height: 20px;
+        width: 50px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: gold;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    a {
+        background-color: black;
+        color: silver;
+        border: 1px solid white;
+        text-decoration: none;
+        padding: 8px;
+        margin: 8px;
+        border-radius: 8px;
+    }
+
+    a:hover {
+        background: silver;
+        color: black;
+        border: 1px solid white;
+    
+    }
+}
